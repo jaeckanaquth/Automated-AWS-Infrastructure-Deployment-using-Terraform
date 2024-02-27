@@ -1,4 +1,4 @@
-"# Terraforming Your Infrastructure with Can Terraform Deploy Applications
+# Terraforming Your Infrastructure with Can Terraform Deploy Applications
 
 Terraform is a powerful infrastructure as code (IaC) tool that allows you to define, provision, and manage infrastructure in a safe, consistent, and repeatable way. If you're new to Terraform, this post will give you an overview of its capabilities and show you how to get started terraforming your infrastructure with Terraform.
 
@@ -76,5 +76,3 @@ Hopefully this gives you a good overview of some of Terraform's capabilities. To
 - [Terraform Documentation](https://www.terraform.io/docs/index.html)
 - [Get Started with the Terraform AWS Provider](https://learn.hashicorp.com/tutorials/terraform/aws-build)
 - [Terraform Modules Registry](https://registry.terraform.io/)
-
-Let me know if you have any other questions!"
