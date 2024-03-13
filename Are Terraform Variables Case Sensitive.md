@@ -19,7 +19,8 @@ variable "region" {
 <h2>Are Terraform Variable Names Case Sensitive?</h2>
 <p>When declaring and using variables in Terraform, the variable names themselves are <strong>case sensitive</strong>. </p>
 <p>For example, if you declare a variable named <code>region</code> but try to reference it as <code>Region</code>, you'll get an error:</p>
-<p>```
+
+```
 variable "region" {
   default = "us-east-1"
 }</p>
@@ -27,7 +28,8 @@ variable "region" {
   # This will fail!
   region = var.Region 
 }
-```</p>
+```
+
 <p>The variable name <code>region</code> doesn't match <code>Region</code>. So pay close attention to the exact casing when referencing variables.</p>
 <h2>Referencing Variables in Expressions</h2>
 <p>You can reference variables in expressions like conditionals or resource names using the <code>var</code> prefix:</p>
