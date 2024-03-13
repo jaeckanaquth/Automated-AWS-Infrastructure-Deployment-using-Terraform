@@ -3,6 +3,7 @@
 <h2>An Introduction to Terraform Variables</h2>
 <p>Variables allow you to parameterize your Terraform configuration so you can reuse the same code for multiple environments. For example, you can use a variable to represent the AWS region or VM instance size. </p>
 <p>Variables are declared using the <code>variable</code> block and referenced using the <code>var</code> keyword. Here's a simple example:</p>
+
 ```
 variable "region" {
   default = "us-east-1" 
@@ -12,7 +13,8 @@ variable "region" {
   instance_type = "t2.micro"
   region        = var.region
 }
-```</p>
+```
+
 <p>This allows you to change the region without modifying the underlying Terraform code.</p>
 <h2>Are Terraform Variable Names Case Sensitive?</h2>
 <p>When declaring and using variables in Terraform, the variable names themselves are <strong>case sensitive</strong>. </p>
