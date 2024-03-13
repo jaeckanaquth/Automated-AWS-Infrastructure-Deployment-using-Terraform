@@ -3,10 +3,10 @@
 <h2>An Introduction to Terraform Variables</h2>
 <p>Variables allow you to parameterize your Terraform configuration so you can reuse the same code for multiple environments. For example, you can use a variable to represent the AWS region or VM instance size. </p>
 <p>Variables are declared using the <code>variable</code> block and referenced using the <code>var</code> keyword. Here's a simple example:</p>
-<p>```
+```
 variable "region" {
   default = "us-east-1" 
-}</p>
+}
 <p>resource "aws_instance" "example" {
   ami           = "ami-0cff7528ff583bf9a" 
   instance_type = "t2.micro"
