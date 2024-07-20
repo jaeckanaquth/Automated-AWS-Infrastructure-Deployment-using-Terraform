@@ -23,5 +23,5 @@ Follow the steps below to deploy the infrastructure.
 ### Installation
 Clone the repository:
 ```bash
-git clone https://github.com/yourusername/automated-infrastructure-deployment.git
+git clone https://github.com/jaeckanaquth/aws_Infrastructure_terraform.git
 cd automated-infrastructure-deployment
